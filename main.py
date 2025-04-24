@@ -3,7 +3,7 @@ from datetime import datetime
 
 def fetch_weather():
     city = "Mumbai"  # You can change the city here
-    api_key = "your_api_key_here"  # Replace with your OpenWeatherMap API key
+    api_key = "84a8b174f93ebcb6dc7e7e058be23087"  # Replace with your OpenWeatherMap API key
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     response = requests.get(url)
